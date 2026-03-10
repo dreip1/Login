@@ -1,7 +1,3 @@
-// Função para saudar o usuário
-function saudacao(nome) {
-    console.log(`Olá, ${nome}! Bem-vindo ao login-project.`);
-}
 
 // Validar email
 function validarEmail(email) {
@@ -20,6 +16,13 @@ function fazerLogin(email, senha) {
     }
 }
 
-// Exemplo de uso
-saudacao("João");
-fazerLogin("user@example.com", "senha123");
+//Ver senha//
+function mostrarSenha() {
+    var input = document.getElementById("senha");
+
+    if (input.type === "password") {
+        input.type = "text";
+    } else {
+        input.type = "password";
+    }
+}
