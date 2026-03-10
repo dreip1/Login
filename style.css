@@ -1,0 +1,10 @@
+body{
+    background: #0f172a;
+    font-family: Arial;
+}
+
+.login-container{
+    width: 300px;
+    margin: auto;
+    margin-top: 150px;
+}
